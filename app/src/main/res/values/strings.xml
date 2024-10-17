@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WeatherApi</string>
+    <string name="forecast">OsamaMéteo</string>
+    <string name="ville">Ville:</string>
+    <string name="temperature">Temperature:</string>
+    <string name="min">Min:</string>
+    <string name="max">Max:</string>
+    <string name="date">date</string>
+    <string name="enter_city">Enter City</string>
+    <string name="get_weather">Get Weather</string>
+</resources>

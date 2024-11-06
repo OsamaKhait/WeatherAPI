@@ -7,6 +7,9 @@
     <string name="max">Max:</string>
     <string name="date">date</string>
     <string name="enter_city">Enter City</string>
-    <string name="get_weather">Get Weather</string>
+    <string name="get_weather">Afficher le méteo</string>
     <string name="recipe_suggestion">Recette</string>
+    <string name="get_recipe">Afficher les recettes du jour</string>
+    <string name="back_to_main">Retour à la page principale</string>
+    <string name="recipe_info">La suggestion de recette apparaîtra ici</string>
 </resources>

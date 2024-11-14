@@ -5,15 +5,17 @@ import java.util.List;
 
 public class Recipe implements Serializable {
     private String name;
-    private String imageUrl; // Make sure this is spelled correctly
+    private String imageUrl;
     private List<String> ingredients;
     private List<String> instructions;
+    private String videoUrl; // Ajouter le champ videoUrl
 
-    public Recipe(String name, String imageUrl, List<String> ingredients, List<String> instructions) {
+    public Recipe(String name, String imageUrl, List<String> ingredients, List<String> instructions, String videoUrl) {
         this.name = name;
-        this.imageUrl = imageUrl; // Correct spelling here
+        this.imageUrl = imageUrl;
         this.ingredients = ingredients;
         this.instructions = instructions;
+        this.videoUrl = videoUrl; // Initialiser videoUrl
     }
 
     public String getName() {
@@ -30,6 +32,10 @@ public class Recipe implements Serializable {
 
     public List<String> getInstructions() {
         return instructions;
+    }
+
+    public String getVideoUrl() {
+        return videoUrl; // Récupérer l'URL de la vidéo
     }
 
     @Override

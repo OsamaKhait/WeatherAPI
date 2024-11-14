@@ -30,7 +30,7 @@ public class ForecastData {
     }
 
     public String getDate() {
-        SimpleDateFormat sdf = new SimpleDateFormat("MMM d, yyyy", Locale.FRENCH);
+        SimpleDateFormat sdf = new SimpleDateFormat("d MMM, yyyy", Locale.FRENCH);
         String formattedDate = sdf.format(new Date(date * 1000));
         return formattedDate.substring(0, 1).toUpperCase() + formattedDate.substring(1);
     }
